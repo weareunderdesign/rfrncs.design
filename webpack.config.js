@@ -16,17 +16,20 @@ module.exports = {
         options: {
           dynamicTyping: true,
           header: true,
-          skipEmptyLines: true,
         },
       },
     ],
   },
   resolve: {
-    extensions: [".ts", ".js", ".csv"],
+    extensions: [".ts", ".js"],
   },
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "index.js",
+    library: "Rfrncs",
+    libraryTarget: "umd",
+    globalObject: "this",
+    umdNamedDefine: true,
   },
   devtool: "inline-source-map",
 };
