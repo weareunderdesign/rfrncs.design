@@ -73,5 +73,5 @@ import { htmlGlobalAttributesReferences } from "@rnbws/rfrncs.design";
 Install with NPM:
 
 ```
-npm install @rnbws/frrncs.design
+npm install @rnbws/rfrncs.design
 ```
