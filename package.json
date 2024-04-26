@@ -1,0 +1,36 @@
+{
+  "name": "@rnbws/rfrncs.design",
+  "version": "0.0.1",
+  "description": "rfrncs.design is a comprehensive repository that includes csv files containing detailed data on html elements, attributes, css selectors and more. this project is designed to serve as a quick and convenient resource for designers and developers alike.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "start": "webpack --mode=production && node dist/index.js",
+    "build": "webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rnbwdev/rfrncs.git"
+  },
+  "keywords": [
+    "html elements",
+    "css attributes",
+    "selectors"
+  ],
+  "author": "rnbwdev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rnbwdev/rfrncs/issues"
+  },
+  "homepage": "https://github.com/rnbwdev/rfrncs#readme",
+  "devDependencies": {
+    "csv-loader": "^3.0.5",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.4.5",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  }
+}

@@ -1,4 +1,4 @@
-﻿"﻿Name",Description,Extension,Type,Icon,Featured
+﻿"Name",Description,Extension,Type,Icon,Featured
 Folder,A container for organizing files and other folders in a file system,folder,Nodes,folder,Yes
 HTML,"HyperText Markup Language, used to structure content on the web",html,Nodes,page,Yes
 CSS,"Cascading Style Sheets, used for styling web pages",css,Nodes,brush,Yes
