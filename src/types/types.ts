@@ -1,39 +1,39 @@
-// Interface for CSS Pseudo Classes.csv
-export interface CSSPseudoClassesEntry {
+// Type for CSS Pseudo Classes.csv
+export type TCssPseudoClassesReferences = {
   Name: string;
   Selector: string;
   Example: string;
   "Example description": string;
-}
+};
 
-// Interface for CSS Selectors.csv
-export interface CSSSelectorsEntry {
+// Type for CSS Selectors.csv
+export type TCssSelectorsReferences = {
   Selector: string;
   Example: string;
   "Example description": string;
-}
+};
 
-// Interface for Files.csv
-export interface FilesEntry {
+// Type for Files.csv
+export type TFilesReferences = {
   Name: string;
   Description: string;
   Extension: string;
   Type: string;
   Icon: string;
   Featured: string;
-}
+};
 
-// Interface for HTML Attributes.csv
-export interface HTMLAttributesEntry {
+// Type for HTML Attributes.csv
+export type THtmlAttributesReferences = {
   Name: string;
   Attribute: string;
   "Belongs to": string;
   Description: string;
   Value: string;
-}
+};
 
-// Interface for HTML Elements.csv
-export interface HTMLElementsEntry {
+// Type for HTML Elements.csv
+export type THtmlElementsReference = {
   Tag: string;
   Contain: string;
   Description: string;
@@ -44,12 +44,12 @@ export interface HTMLElementsEntry {
   Type: string;
   Featured: string;
   "Cover Image": string;
-}
+};
 
-// Interface for HTML Global Attributes.csv
-export interface HTMLGlobalAttributesEntry {
+// Type for HTML Global Attributes.csv
+export type THtmlGlobalAttributesReferences = {
   Name: string;
   Attribute: string;
   Description: string;
   Value: string | null;
-}
+};
