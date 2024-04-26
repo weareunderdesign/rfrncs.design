@@ -1,5 +1,5 @@
 // Type for CSS Pseudo Classes.csv
-export type TCssPseudoClassesReferences = {
+export type TCssPseudoClassesReference = {
   Name: string;
   Selector: string;
   Example: string;
@@ -7,14 +7,14 @@ export type TCssPseudoClassesReferences = {
 };
 
 // Type for CSS Selectors.csv
-export type TCssSelectorsReferences = {
+export type TCssSelectorsReference = {
   Selector: string;
   Example: string;
   "Example description": string;
 };
 
 // Type for Files.csv
-export type TFilesReferences = {
+export type TFilesReference = {
   Name: string;
   Description: string;
   Extension: string;
@@ -24,7 +24,7 @@ export type TFilesReferences = {
 };
 
 // Type for HTML Attributes.csv
-export type THtmlAttributesReferences = {
+export type THtmlAttributesReference = {
   Name: string;
   Attribute: string;
   "Belongs to": string;
@@ -47,7 +47,7 @@ export type THtmlElementsReference = {
 };
 
 // Type for HTML Global Attributes.csv
-export type THtmlGlobalAttributesReferences = {
+export type THtmlGlobalAttributesReference = {
   Name: string;
   Attribute: string;
   Description: string;

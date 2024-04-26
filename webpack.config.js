@@ -1,7 +1,7 @@
 const path = require("path");
 
 module.exports = {
-  mode: "development",
+  mode: "production",
   entry: "./src/index.ts",
   module: {
     rules: [
@@ -16,16 +16,17 @@ module.exports = {
         options: {
           dynamicTyping: true,
           header: true,
+          skipEmptyLines: true,
         },
       },
     ],
   },
   resolve: {
-    extensions: [".ts", ".js"],
+    extensions: [".ts", ".js", ".csv"],
   },
   output: {
-    filename: "bundle.js",
     path: path.resolve(__dirname, "dist"),
+    filename: "index.js",
   },
   devtool: "inline-source-map",
 };

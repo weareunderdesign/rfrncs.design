@@ -20,7 +20,7 @@ jobs:
         id: version
         uses: EndBug/version-check@v2.1.4
         with:
-          file-url: https://unpkg.com/@rnbws/renecss/package.json
+          file-url: https://unpkg.com/@rnbws/rfrncs.design/package.json
           static-checking: localIsNew
 
   create-release:

@@ -13,6 +13,7 @@ the references aims to streamline your development process by offering a single 
 `cssPseudoClassesReferences`: An array containing reference data for CSS pseudo-classes.
 
 Each element in the array corresponds to the type `TCssPseudoClassesReferences`.
+
 ```
 import { cssPseudoClassesReferences } from "@rnbws/rfrncs.design";
 ```
@@ -22,15 +23,17 @@ import { cssPseudoClassesReferences } from "@rnbws/rfrncs.design";
 `cssSelectorsReferences`: An array containing reference data for CSS selectors.
 
 Each element in the array corresponds to the type `TCssSelectorsReferences`.
+
 ```
 import { cssSelectorsReferences } from "@rnbws/rfrncs.design";
 ```
 
 #### Files References
 
-`filesReferences`: An array containing reference data for files. 
+`filesReferences`: An array containing reference data for files.
 
 Each element in the array corresponds to the type `TFilesReferences`.
+
 ```
 import { filesReferences } from "@rnbws/rfrncs.design";
 ```
@@ -45,7 +48,7 @@ Each element in the array corresponds to the type `THtmlAttributesReferences`.
 import { htmlAttributesReferences } from "@rnbws/rfrncs.design";
 ```
 
-HTML Elements References
+#### HTML Elements References
 
 `htmlElementsReferences`: An array containing reference data for HTML elements.
 
@@ -55,16 +58,15 @@ Each element in the array corresponds to the type `THtmlElementsReference`.
 import { htmlElementsReferences } from "@rnbws/rfrncs.design";
 ```
 
-HTML Global Attributes References
+#### HTML Global Attributes References
 
-`htmlGlobalAttributesReferences`: An array containing reference data for HTML global attributes. 
+`htmlGlobalAttributesReferences`: An array containing reference data for HTML global attributes.
 
 Each element in the array corresponds to the type `THtmlGlobalAttributesReferences`.
 
 ```
 import { htmlGlobalAttributesReferences } from "@rnbws/rfrncs.design";
 ```
-
 
 ## Get Started
 
