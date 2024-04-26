@@ -4,6 +4,5 @@
     "declaration": true,
     "moduleResolution": "node",
     "declarationDir": "./dist"
-  },
-  "exclude": ["node_modules", "dist"]
+  }
 }
