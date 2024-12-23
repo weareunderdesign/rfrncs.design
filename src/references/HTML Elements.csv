@@ -95,7 +95,7 @@
 <textarea>,None,Multiline Text Input Control,Text Area,,placeholder=”Write Something”,input,Forms and Input,No,
 <button>,All,Clickable Button,Button,Click me,"type=""button""",button,Forms and Input,No,
 <figcaption>,All,Caption for a Figure Element,Figure Caption,"<figure><img src=""image.jpg"" alt=""Image description""><figcaption>Image caption</figcaption></figure>",,div,Formatting,No,
-<img>,None,Image Element,Image,,"src=""image.png"" alt=""Image description""",image,Images,Yes,
+<img>,None,Image Element,Image,,"src=""image.svg""",image,Images,Yes,
 <map>,<area>,Client-Side Image Map,Map,"<area shape=""rect"" coords=""0,0,100,100"" href=""#"">","name=""map""",div,Images,No,
 <area>,None,Clickable Area within an Image Map,Area,,,div,Images,No,
 <canvas>,All,Graphics Container for Dynamic Scripting (e.g. JavaScript),Canvas,,"width=""200"" height=""200""",skew,Images,No,
