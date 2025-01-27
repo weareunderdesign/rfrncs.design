@@ -1,6 +1,6 @@
 {
   "name": "@rnbws/rfrncs.design",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "rfrncs.design is a comprehensive repository that includes csv files containing detailed data on html elements, attributes, css selectors and more. this project is designed to serve as a quick and convenient resource for designers and developers alike.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
