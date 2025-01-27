@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "start": "webpack --mode=production && node dist/index.js",
-    "build": "webpack --mode=production"
+    "build": "npm version patch && webpack --mode=production"
   },
   "repository": {
     "type": "git",
